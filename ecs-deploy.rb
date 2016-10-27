@@ -4,9 +4,9 @@
 class EcsDeploy < Formula
   desc "Simple shell script for initiating blue-green deployments on Amazon EC2 Container Service (ECS)"
   homepage "https://github.com/silinternational/ecs-deploy"
-  url "https://github.com/silinternational/ecs-deploy/archive/2.6.2.tar.gz"
-  version "2.6.2"
-  sha256 "c10b0f0abf02520a079f0b27fe27031f77d4892c8cca3e035798245c7f0541b4"
+  url "https://github.com/silinternational/ecs-deploy/archive/2.6.3.tar.gz"
+  version "2.6.3"
+  sha256 "74bc6073db50fb3fc3b712487f71e4a5edbcaa8b60be4d93245ddaf717a9a142"
 
   depends_on "awscli"
   depends_on "jq"

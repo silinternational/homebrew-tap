@@ -4,11 +4,11 @@
 class EcsDeploy < Formula
   desc "Simple shell script for initiating blue-green deployments on Amazon EC2 Container Service (ECS)"
   homepage "https://github.com/silinternational/ecs-deploy"
-  url "https://github.com/silinternational/ecs-deploy/archive/refs/tags/3.10.8.tar.gz"
-  version "3.10.8"
+  url "https://github.com/silinternational/ecs-deploy/archive/refs/tags/3.10.10.tar.gz"
+  version "3.10.10"
   # When updating the version, get a SHA-256 hash of the file at the (new) url
   # above and use that as the new sha256 value here:
-  sha256 "76ce5a728d52efd87b1436e1f73331422dfd8e1f53bcb0d80ed6bf72d65154d3"
+  sha256 "67911ca633181deaa049dcd35c0a98a5e7f98ed7c19c1e7b7f714fe9147f4fff"
 
   depends_on "awscli"
   depends_on "jq"
